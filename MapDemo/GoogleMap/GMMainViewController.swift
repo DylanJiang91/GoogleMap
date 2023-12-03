@@ -144,7 +144,7 @@ class GMMainViewController: UIViewController {
             return
         }
         
-        // 得自己手动实现，google map上暂时没提供相关功能
+        // 得自己手动实现，google map上暂时没提供相关功能，或者跳转到google地图进行导航
         // 通过不停的定位更新，来绘制线路
     }
     
