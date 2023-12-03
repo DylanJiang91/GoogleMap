@@ -144,8 +144,8 @@ class GMMainViewController: UIViewController {
             return
         }
         
-        mapView?.startRendering()
-        
+        // 得自己手动实现，google map上暂时没提供相关功能
+        // 通过不停的定位更新，来绘制线路
     }
     
     // 查看规划路线
@@ -165,6 +165,7 @@ class GMMainViewController: UIViewController {
     
     // 历史回顾
     @objc private func historyAction() {
+        // 生成path
         
     }
     
